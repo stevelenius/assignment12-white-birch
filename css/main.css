@@ -98,69 +98,85 @@ textarea {
    ========================================================================== */
 
 body {
+    position: relative;
     font-family: 'Poppins', sans-serif;
 }
 
-#wd-navbar {
+.sticky-header p {
     position: fixed;
-    top: 0;
+    top: 0
     left: 0;
+    margin: 0;
     width: 100%;
-    border-bottom: 4px solid #556b2f;
-    background-color: #ffdead;
+    background-color: #100060;
+    color: #fff;
+}
+
+.header-phone {
+    padding-left: .5em;
+    font-size: 1.5em;
+}
+
+#side-navbar {
+    position: fixed;
+    top: 72px;
+    left: 0;
+    width: 150px;
+    background-color: #104700;
     font-size: .8em;
   }
   
-  #wd-navbar ul {
+  #side-navbar ul {
     list-style: none;
     margin: 0;
     padding: .25em;
   }
   
-  #wd-navbar li {
-    float: left;
-    margin-right: .75em;
+  #side-navbar li {
+    margin-right: .25em;
+    font-weight: bold;
   } 
   
-  #wd-navbar a{
-    color: #556b2f;
+  #side-navbar a{
+    color: #fff;
   }
 
-  #wd-navbar li a {
+  #side-navbar li a {
     display: block;
-    background-color: #ffdead;
-    padding: .5em;
+    padding: .25em 0 0 .5em;
     text-decoration: none;
   }
   
-  #wd-navbar li a:hover {
-    background-color: #556b2f;
-    color: #ffdead;
+  #side-navbar li a:hover {
+    background-color: #fff;
+    color: #104700;
     text-decoration: none;
   }
   
-  #wd-navbar li ul {
-    display: none;
-    position: absolute;
-    padding: 0;
+  #side-navbar li ul {
+    padding: 0 0 0 .75em;
+    font-weight: 400;
   }
   
-  #wd-navbar li:hover ul {
+  #side-navbar li li {
+    font-weight: normal;
+  }
+  
+#side-navbar .deals a {
     display: block;
+    background-color: #ffdd00;
+    color: #000;
+    padding: .25em 0 0 .5em;
+    text-decoration: none;
   }
   
-  #wd-navbar li li {
-    float: none;
-    border-bottom: 4px solid #556b2f;
+ #side-navbar .deals a:hover {
+    display: block;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
   }
   
-  #wd-navbar li li a {
-    border: 0;
-    border-left: 2px solid #556b2f;
-    border-right: 2px solid #556b2f;
-  }
-
-
 
 
 
