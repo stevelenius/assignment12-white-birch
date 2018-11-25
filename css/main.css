@@ -389,7 +389,7 @@ h4 {
     font-weight: 700;
     font-size: 1.5em;
     font-style: italic;
-    line-height: 1;
+    line-height: 1.2;
     padding: .125rem 0 .375rem 0;
 }
 
@@ -459,10 +459,27 @@ li {
 .footer {
     background-color: #bcd8fa;
     margin: 0;
-    padding: 0;
+    padding: 1em 1.5em;
 
 }
 
+.footer-info {
+    width: 33%;
+    min-width: 300px;
+    float: left;
+    padding-right: 1em;
+}
+
+.google-map {
+    width: 60%;
+    float: left;
+}
+
+.bottom-nav,
+.footer-copyright {
+    font-size: .8em;
+    text-align: center;
+}
 
 
 
